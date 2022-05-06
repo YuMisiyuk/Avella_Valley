@@ -74,7 +74,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _Gradient: 1.4
+    - _Gradient: 3.79
     - _GradientPower: 1
     - _LeavesThickness: 0.5
     - _MaskClipValue: 0.5
