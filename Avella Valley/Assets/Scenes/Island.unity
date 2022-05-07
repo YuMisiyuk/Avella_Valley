@@ -342,7 +342,7 @@ MonoBehaviour:
     modifierStack:
     - {fileID: 914720424}
     - {fileID: 514769144}
-  - enabled: 1
+  - enabled: 0
     layer: {fileID: 8574412962073106934, guid: 9a73362259799e748b5f32ee4d5b9f54, type: 2}
     modifierStack:
     - {fileID: 1991899698}
@@ -371,7 +371,7 @@ MonoBehaviour:
   terrains:
   - {fileID: 96645657}
   treeTypes:
-  - enabled: 1
+  - enabled: 0
     name: LPW_Tree_A1_6.5m_01
     seed: 63592
     probability: 62.8
@@ -384,7 +384,7 @@ MonoBehaviour:
     - name: Grass_lighted_right
       layerID: 0
       threshold: 0
-    instanceCount: 57
+    instanceCount: 0
     prefabs:
     - index: 0
       probability: 100
@@ -900,8 +900,8 @@ MonoBehaviour:
   blendMode: 0
   opacity: 100
   passIndex: 1
-  minMax: {x: 2, y: 90}
-  minFalloff: 3.5
+  minMax: {x: 3, y: 47.14286}
+  minFalloff: 1
   maxFalloff: 15
 --- !u!1 &523304176
 GameObject:
@@ -1299,7 +1299,7 @@ MonoBehaviour:
   blendMode: 0
   opacity: 100
   passIndex: 2
-  minMax: {x: 0.24324334, y: 0.35810825}
+  minMax: {x: 0.73303926, y: 0.84790415}
   radius: 7.62
   minFalloff: 0.212
   maxFalloff: 0.459
@@ -2100,6 +2100,7 @@ Transform:
   - {fileID: 125484549}
   - {fileID: 87478963}
   - {fileID: 1688022354}
+  - {fileID: 1076335403}
   - {fileID: 1211370665}
   - {fileID: 2027584655}
   - {fileID: 348768148}
@@ -2108,7 +2109,6 @@ Transform:
   - {fileID: 1212495361}
   - {fileID: 2107966856}
   - {fileID: 98722674}
-  - {fileID: 1076335403}
   - {fileID: 316916566}
   - {fileID: 1839296416}
   - {fileID: 1730827481}
@@ -2322,19 +2322,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.31430689
+      value: 0.37996557
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.31430689
+      value: 0.37996557
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.31430689
+      value: 0.37996557
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.3
+      value: 38.96
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2342,11 +2342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.8
+      value: 18.66
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9203503
+      value: -0.879048
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2354,7 +2354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.3910951
+      value: 0.47673333
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2366,7 +2366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -46.045
+      value: -416.945
       objectReference: {fileID: 0}
     - target: {fileID: 3960197804436653375, guid: e98e7746af4dd454795e8fdf6ff30d21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
