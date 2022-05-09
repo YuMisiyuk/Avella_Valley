@@ -81,7 +81,7 @@ Material:
     - _GrassWidth: 0.1
     - _MaxDist: 10
     - _Metallic: 0
-    - _MinDist: 5
+    - _MinDist: 10
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
