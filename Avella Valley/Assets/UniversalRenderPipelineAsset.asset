@@ -28,7 +28,7 @@ MonoBehaviour:
   m_RenderScale: 1
   m_MainLightRenderingMode: 1
   m_MainLightShadowsSupported: 1
-  m_MainLightShadowmapResolution: 2048
+  m_MainLightShadowmapResolution: 512
   m_AdditionalLightsRenderingMode: 1
   m_AdditionalLightsPerObjectLimit: 4
   m_AdditionalLightShadowsSupported: 0
@@ -54,4 +54,5 @@ MonoBehaviour:
   m_MaxPixelLights: 0
   m_ShadowAtlasResolution: 256
   m_ShaderVariantLogLevel: 0
+  m_VolumeFrameworkUpdateMode: 0
   m_ShadowCascades: 0
