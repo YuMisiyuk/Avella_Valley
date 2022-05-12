@@ -43,6 +43,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2543892c870f1ae41bca837d3c66dfef, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2543892c870f1ae41bca837d3c66dfef, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2543892c870f1ae41bca837d3c66dfef, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2543892c870f1ae41bca837d3c66dfef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
@@ -98,7 +110,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2543892c870f1ae41bca837d3c66dfef, type: 3}
   m_PrefabInstance: {fileID: 8962551194299997321}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &5473359758581681583
+--- !u!64 &4503877928693814502
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
