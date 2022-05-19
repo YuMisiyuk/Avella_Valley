@@ -47,32 +47,54 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\MeshProcessing\SplineExtrusion.cs" />
      <Compile Include="Assets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
      <Compile Include="Assets\InputSystem\StarterAssetsInputs.cs" />
      <Compile Include="Assets\Scripts\DayNightController.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeTransforms.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\ExampleSower.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\MeshProcessing\SourceMesh.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBase.cs" />
      <Compile Include="Assets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Bezier\SplineNode.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Animal People Sample\Scripts\FreeCameraLogic.cs" />
      <Compile Include="Assets\Scripts\DayNightChange.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Utils\UOUtility.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\ExampleFollowSpline.cs" />
      <Compile Include="Assets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Animal People Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Animal People Sample\Scripts\SimpleSampleCharacterControl.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\ExampleContortAlong.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBox.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Utils\MeshUtility.cs" />
      <Compile Include="Assets\Scripts\GeometryGrassPainter.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\ExampleGrowingRoot.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Bezier\CubicBezierCurve.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\MeshProcessing\SplineMeshTiling.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\MeshProcessing\MeshVertex.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\MeshProcessing\ExtrusionSegment.cs" />
      <Compile Include="Assets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
      <Compile Include="Assets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Animal People Sample\Scripts\AccessoryLogic.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\RopeBuilder.cs" />
      <Compile Include="Assets\Scripts\BasicRigidBodyPush.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\ExampleTrack.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Utils\CameraUtility.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Bezier\Spline.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\MeshProcessing\MeshBender.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Bezier\CurveSample.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Core\FlagEnumAttribute.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Example\ExampleTentacle.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeHelper.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Animal People Sample\Scripts\AccessoryWearLogic.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WateverVolumeFloater.cs" />
+     <Compile Include="Assets\Assets\SplineMesh\Scripts\Bezier\SplineSmoother.cs" />
      <None Include="Assets\Materials\Assets\Grass.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
      <None Include="Assets\Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+     <None Include="Assets\Assets\ProceduralTerrainPainter\Shaders\Filters.hlsl" />
      <None Include="Assets\Assets\Supercyan Character Pack Animal People Sample\Shaders\SupercyanShader.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader_VS.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
@@ -82,14 +104,18 @@
      <None Include="Assets\Assets\Nicrom\PolyPacks\Wind\Documentation\LPW_Log.txt" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Water_Shader.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+     <None Include="Assets\Assets\ProceduralTerrainPainter\_Demo\Textures\_LICENSE.txt" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Rock_Shader_VS.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Plants_Shader_VS.shader" />
      <None Include="Assets\Assets\Nicrom\PolyPacks\Wind\Assets\Shaders\ASE\LPW_Vegetation.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader_VS.shader" />
      <None Include="Assets\Assets\Polygonal Particles\Assets\Shaders\GradientBackgroundShader.shader" />
+     <None Include="Assets\Assets\ProceduralTerrainPainter\Shaders\Noise.hlsl" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Rock_Shader.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\VS_indirect.cginc" />
+     <None Include="Assets\Assets\ProceduralTerrainPainter\Shaders\Modifier.shader" />
      <None Include="Assets\Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader_VS.shader" />
+     <None Include="Assets\Assets\SplineMesh\Doc.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Programs/Unity/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -763,6 +789,16 @@
       <Name>Boxophobic.Utils.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="sc.terrain.painter.editor.csproj">
+      <Project>{8E54C8FD-5430-49F0-1F5D-40906D655675}</Project>
+      <Name>sc.terrain.painter.editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="sc.vegetationspawner.runtime.csproj">
+      <Project>{F6E2D6EB-EB32-ECBE-385F-C29BA12482D2}</Project>
+      <Name>sc.vegetationspawner.runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
       <Project>{BAE37620-3FF1-21E4-AD08-7C2D556E1613}</Project>
       <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
@@ -771,6 +807,16 @@
     <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
       <Project>{4EB40828-6E2F-55DE-6944-5AE49DCC87A1}</Project>
       <Name>Boxophobic.Utils.Scripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="sc.terrain.painter.runtime.csproj">
+      <Project>{3BB37FAF-2A8D-559E-812C-332738DA2700}</Project>
+      <Name>sc.terrain.painter.runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="sc.vegetationspawner.editor.csproj">
+      <Project>{07E03456-C829-FD30-90FB-C7670A15A9FB}</Project>
+      <Name>sc.vegetationspawner.editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
