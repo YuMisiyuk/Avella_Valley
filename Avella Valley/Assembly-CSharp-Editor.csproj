@@ -769,6 +769,11 @@
       <Name>Assembly-CSharp</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{342FF542-C941-187F-DD71-4BFA8DAB8A7A}</Project>
+      <Name>CW.Common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
       <Project>{9A8F3AFB-7EF0-3E25-3366-FE883DB11326}</Project>
       <Name>Boxophobic.Utils.Editor</Name>
@@ -782,6 +787,11 @@
     <ProjectReference Include="sc.vegetationspawner.runtime.csproj">
       <Project>{F6E2D6EB-EB32-ECBE-385F-C29BA12482D2}</Project>
       <Name>sc.vegetationspawner.runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.csproj">
+      <Project>{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}</Project>
+      <Name>LeanTransition</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
@@ -802,6 +812,21 @@
     <ProjectReference Include="sc.vegetationspawner.editor.csproj">
       <Project>{07E03456-C829-FD30-90FB-C7670A15A9FB}</Project>
       <Name>sc.vegetationspawner.editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{68E11043-4768-DFAC-CB0D-E1F35D18B495}</Project>
+      <Name>LeanCommon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUI.csproj">
+      <Project>{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}</Project>
+      <Name>LeanGUI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.Editor.csproj">
+      <Project>{152BCFB5-A67C-2FC3-8B18-25D56621F139}</Project>
+      <Name>LeanTransition.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
