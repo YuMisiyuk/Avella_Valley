@@ -48,6 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\SplineMesh\Scripts\Editor\SplineEditor.cs" />
+     <Compile Include="Assets\DevLocker\Tools\AssetManagement\Editor\MultiRenameTool.cs" />
      <Compile Include="Assets\Assets\Nicrom\PolyPacks\Wind\Assets\Scripts\Editor\LPVegetation_MaterialInspector.cs" />
      <Compile Include="Assets\Assets\SplineMesh\Scripts\Editor\SplineExtrusionEditor.cs" />
      <Compile Include="Assets\Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Editor\FlagEnumAttributeDrawer.cs" />
