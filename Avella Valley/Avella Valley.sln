@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanTransition", "LeanTransition.csproj", "{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{EB293765-49D0-9A17-7940-AF64C4833336}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW.Common", "CW.Common.csproj", "{342FF542-C941-187F-DD71-4BFA8DAB8A7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanGUI", "LeanGUI.csproj", "{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{EB293765-49D0-9A17-7940-AF64C4833336}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{3BB37FAF-2A8D-559E-812C-332738DA2700}"
 EndProject
@@ -39,6 +39,10 @@ Global
 		{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB293765-49D0-9A17-7940-AF64C4833336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB293765-49D0-9A17-7940-AF64C4833336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB293765-49D0-9A17-7940-AF64C4833336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB293765-49D0-9A17-7940-AF64C4833336}.Release|Any CPU.Build.0 = Release|Any CPU
 		{342FF542-C941-187F-DD71-4BFA8DAB8A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{342FF542-C941-187F-DD71-4BFA8DAB8A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{342FF542-C941-187F-DD71-4BFA8DAB8A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,10 +51,6 @@ Global
 		{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB293765-49D0-9A17-7940-AF64C4833336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB293765-49D0-9A17-7940-AF64C4833336}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB293765-49D0-9A17-7940-AF64C4833336}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB293765-49D0-9A17-7940-AF64C4833336}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BB37FAF-2A8D-559E-812C-332738DA2700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BB37FAF-2A8D-559E-812C-332738DA2700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB37FAF-2A8D-559E-812C-332738DA2700}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -89,11 +89,11 @@ Material:
     - _Exposure: 1
     - _Float0: 0
     - _FogFill: 0
-    - _FogHeight: 0.7
+    - _FogHeight: 0.5
     - _FogIntensity: 1
     - _FogMessage: 0
     - _FogPosition: 0
-    - _FogSmoothness: 0.01
+    - _FogSmoothness: 0.2
     - _Fogg: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
