@@ -1,0 +1,17 @@
+﻿{
+    "name": "sc.utilities.replace-selected",
+    "description": "Editor utility to swap out a GameObject selection with another",
+    "version": "1.0.2",
+    "unity": "2019.3",
+    "unityRelease": "0f1",
+    "displayName": "Replace Selected",
+    "author": {
+        "name": "Staggart Creations",
+        "email": "contact@staggart.xyz",
+        "url": "http://staggart.xyz/"
+    },
+    "keywords": [
+        "utility",
+        "replace"
+    ]
+}
