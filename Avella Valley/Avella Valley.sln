@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanTransition.Editor", "LeanTransition.Editor.csproj", "{152BCFB5-A67C-2FC3-8B18-25D56621F139}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.utilities.replace-selected.editor", "sc.utilities.replace-selected.editor.csproj", "{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{BAE37620-3FF1-21E4-AD08-7C2D556E1613}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.vegetationspawner.editor", "sc.vegetationspawner.editor.csproj", "{07E03456-C829-FD30-90FB-C7670A15A9FB}"
@@ -83,6 +85,10 @@ Global
 		{152BCFB5-A67C-2FC3-8B18-25D56621F139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152BCFB5-A67C-2FC3-8B18-25D56621F139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152BCFB5-A67C-2FC3-8B18-25D56621F139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAE37620-3FF1-21E4-AD08-7C2D556E1613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAE37620-3FF1-21E4-AD08-7C2D556E1613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE37620-3FF1-21E4-AD08-7C2D556E1613}.Release|Any CPU.ActiveCfg = Release|Any CPU

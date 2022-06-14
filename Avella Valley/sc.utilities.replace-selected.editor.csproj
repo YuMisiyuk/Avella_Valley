@@ -11,10 +11,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8E54C8FD-5430-49F0-1F5D-40906D655675}</ProjectGuid>
+    <ProjectGuid>{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>sc.terrain.painter.editor</AssemblyName>
+    <AssemblyName>sc.utilities.replace-selected.editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -47,12 +47,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\ProceduralTerrainPainter\Editor\HeatmapPreview.cs" />
-     <Compile Include="Assets\Assets\ProceduralTerrainPainter\Editor\PropertyDrawers.cs" />
-     <Compile Include="Assets\Assets\ProceduralTerrainPainter\Editor\TerrainPainterInspector.cs" />
-     <Compile Include="Assets\Assets\ProceduralTerrainPainter\Editor\ModifierEditor.cs" />
-     <None Include="Assets\Assets\ProceduralTerrainPainter\Editor\Heatmap.shader" />
-     <None Include="Assets\Assets\ProceduralTerrainPainter\Editor\sc.terrain.painter.editor.asmdef" />
+     <Compile Include="Assets\Assets\ReplaceSelected\Editor\ReplaceSelected.cs" />
+     <None Include="Assets\Assets\ReplaceSelected\Editor\sc.utilities.replace-selected.editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Programs/Unity/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -667,11 +663,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="sc.terrain.painter.runtime.csproj">
-      <Project>{3BB37FAF-2A8D-559E-812C-332738DA2700}</Project>
-      <Name>sc.terrain.painter.runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

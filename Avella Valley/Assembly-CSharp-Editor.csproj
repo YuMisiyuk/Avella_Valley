@@ -653,11 +653,11 @@
  <Reference Include="System.Xml.XPath.XDocument">
  <HintPath>D:/Programs/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -665,38 +665,17 @@
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
- </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Autodesk.Fbx.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Autodesk.Fbx.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Formats.Fbx.Editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Searcher.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -716,18 +695,6 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Polybrush.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Polybrush">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
@@ -737,26 +704,59 @@
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Formats.Fbx.Runtime">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Autodesk.Fbx.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Autodesk.Fbx.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Polybrush.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Polybrush">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics.Editor">
- <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
  <HintPath>D:/Projects/Avella_Valley/Avella Valley/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
@@ -769,6 +769,41 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{EB293765-49D0-9A17-7940-AF64C4833336}</Project>
       <Name>Assembly-CSharp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.csproj">
+      <Project>{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}</Project>
+      <Name>LeanTransition</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
+      <Project>{BAE37620-3FF1-21E4-AD08-7C2D556E1613}</Project>
+      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="sc.utilities.replace-selected.editor.csproj">
+      <Project>{5109C0E1-1AC0-55ED-099E-7E1234AF04E5}</Project>
+      <Name>sc.utilities.replace-selected.editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="sc.vegetationspawner.editor.csproj">
+      <Project>{07E03456-C829-FD30-90FB-C7670A15A9FB}</Project>
+      <Name>sc.vegetationspawner.editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{68E11043-4768-DFAC-CB0D-E1F35D18B495}</Project>
+      <Name>LeanCommon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUI.csproj">
+      <Project>{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}</Project>
+      <Name>LeanGUI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.Editor.csproj">
+      <Project>{152BCFB5-A67C-2FC3-8B18-25D56621F139}</Project>
+      <Name>LeanTransition.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="CW.Common.csproj">
@@ -791,16 +826,6 @@
       <Name>sc.vegetationspawner.runtime</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="LeanTransition.csproj">
-      <Project>{C9C507BD-8F6A-B260-AECA-83A82AA66E0A}</Project>
-      <Name>LeanTransition</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
-      <Project>{BAE37620-3FF1-21E4-AD08-7C2D556E1613}</Project>
-      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
       <Project>{4EB40828-6E2F-55DE-6944-5AE49DCC87A1}</Project>
       <Name>Boxophobic.Utils.Scripts</Name>
@@ -809,26 +834,6 @@
     <ProjectReference Include="sc.terrain.painter.runtime.csproj">
       <Project>{3BB37FAF-2A8D-559E-812C-332738DA2700}</Project>
       <Name>sc.terrain.painter.runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="sc.vegetationspawner.editor.csproj">
-      <Project>{07E03456-C829-FD30-90FB-C7670A15A9FB}</Project>
-      <Name>sc.vegetationspawner.editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="LeanCommon.csproj">
-      <Project>{68E11043-4768-DFAC-CB0D-E1F35D18B495}</Project>
-      <Name>LeanCommon</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="LeanGUI.csproj">
-      <Project>{C1D5E927-CDA3-5289-575B-D05CE4A69CB2}</Project>
-      <Name>LeanGUI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="LeanTransition.Editor.csproj">
-      <Project>{152BCFB5-A67C-2FC3-8B18-25D56621F139}</Project>
-      <Name>LeanTransition.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
